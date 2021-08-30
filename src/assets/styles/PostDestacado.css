@@ -1,0 +1,43 @@
+.destacado__container {
+  background-color: white;
+  padding: 0.8rem;
+  width: 90%;
+  max-width: 24rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.img__post--destacado-container {
+  height: 12rem;
+}
+
+.post__destacado--img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.post__destacado--title {
+  width: 100%;
+}
+
+.post__destacado--text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.post__destacado--text-container p {
+  font-size: 1.1rem;
+}
+
+.post__destacado--date {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: flex-end;
+}

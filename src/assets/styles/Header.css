@@ -1,4 +1,55 @@
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
+  align-items: flex-end;
+}
+
+.menu__container {
+  display: none;
+}
+
+.menu__container--open {
+  text-align: center;
+  font-size: 1.7rem;
+  display: block;
+  position: absolute;
+  background-color: #1e2d42;
+  width: 100%;
+  height: 1000%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  gap: 2rem;
+}
+
+.menu__items {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo__img {
+  width: 10rem;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 1rem 3rem;
+  }
+  .menu__container--open {
+    text-align: center;
+    font-size: 1.7rem;
+    display: block;
+    position: absolute;
+    background-color: #1e2d42;
+    width: 100%;
+    height: 300%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 9rem 0;
+    gap: 3rem;
+  }
 }

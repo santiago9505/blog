@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import AllPosts from "../components/Posts/AllPosts.js";
 
 const Post = () => {
   return (
     <div>
-      <h1>posts</h1>
+      <AllPosts />
     </div>
-  )
-}
+  );
+};
 
-export default Post
+export default Post;

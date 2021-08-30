@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import MyHistory from "../components/myHistory";
+
+import "../assets/styles/Biography.css";
 
 const Biography = () => {
   return (
-    <div>
-      <h1>Biography</h1>
-    </div>
-  )
-}
+    <>
+      <MyHistory />
+    </>
+  );
+};
 
-export default Biography
+export default Biography;
